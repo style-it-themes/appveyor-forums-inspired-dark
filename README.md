@@ -28,7 +28,7 @@ its not bug free, there possible are elements that were likely missed.
 <!--
 :arrow_right: [userstyles.org](https://userstyles.org/styles/160316)  
 -->
-:arrow_right: [![INSTALL DIRECTLY WITH - STYLUS Stylus](https://img.shields.io/badge/Install_directly_with-Stylus-21d1d0.svg?longCache=true&style=for-the-badge)](https://github.com/style-it-themes/appveyor-forums-inspired-dark/raw/master/appveyor-forums-inspired-dark.user.css)** to install directly from this repository.  
+:arrow_right: [![INSTALL DIRECTLY WITH - STYLUS Stylus](https://img.shields.io/badge/Install_directly_with-Stylus-21d1d0.svg?longCache=true&style=for-the-badge)](https://github.com/style-it-themes/appveyor-forums-inspired-dark/raw/master/appveyor-forums-inspired-dark.user.css)
   >This is only available using Stylus (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
 
 :arrow_right: [Manually](https://raw.githubusercontent.com/style-it-themes/appveyor-forums-inspired-dark/master/appveyor-forums-inspired-dark.css) into the editor.  
