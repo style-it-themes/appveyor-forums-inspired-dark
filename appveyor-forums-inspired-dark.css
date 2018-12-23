@@ -1,6 +1,6 @@
 @-moz-document domain("help.appveyor.com") {
-	/*! Name    : Appveyor CI Inspired Dark */
-	/*! Version : 0.9.9 beta */
+	/*! Name    : Appveyor Forums Inspired Dark */
+	/*! Version : 1.0.0 beta */
 	/*! Author  : Style-it Themes by: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/appveyor-forums-inspired-dark */
 	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/appveyor-forums-inspired-dark/LICENSE */
@@ -23,7 +23,7 @@
 	}
 
 	.gbutton, a .gbutton {
-		background-color: #777 !important;;
+		background-color: #777 !important;
 		border: 1px solid #aaa !important;
 		color: #ddd !important;
 		text-shadow: 0 1px rgba(0, 0, 0, .75) !important;
@@ -31,7 +31,7 @@
 	}
 
 	.user-profile .gbutton, .user-profile .btns a .gbutton {
-		background-color: #777 !important;;
+		background-color: #777 !important;
 		border: 1px solid #aaa !important;
 		color: #ddd !important;
 		text-shadow: 0 1px rgba(0, 0, 0, .75) !important;
@@ -82,7 +82,7 @@
 	}
 
 	table td {
-		color: #aaa !important;;
+		color: #aaa !important;
 		border-bottom-color: #222 !important;
 	}
 
@@ -525,7 +525,7 @@
 	}
 
 	table.thread-listing th {
-		color: #ccc !important;;
+		color: #ccc !important;
 		border-bottom-color: #555 !important;
 	}
 
@@ -855,7 +855,7 @@
 
 	.watcher-widget {
 		background-color: #333 !important;
-		border: 1px solid #555 !important;;
+		border: 1px solid #555 !important;
 		border-bottom: 0 !important;
 	}
 
@@ -1170,39 +1170,42 @@
 	}
 
 	.errorExplanation {
-		color: #000;
-		background-color: #ffc;
-		border-left-color: #d00
+		color: #ddd !important;
+		background-color: #261d08 !important;
+		border-left: 2px solid #f00 !important;
+		border-top: 1px solid #542 !important;
+		border-right: 1px solid #542 !important;
+		border-bottom: 1px solid #542 !important;
 	}
 
 	.errorExplanation h2 {
-		color: #d00
+		color: #f00 !important;
 	}
 
 	.fieldWithErrors input.textfield {
-		background-color: #ffc;
-		color: #d00
+		background-color: #261d08 !important;
+		color: #f00 !important;
 	}
 
 	.popbox-iframe, .popbox-overlay {
-		background-color: #000
+		background-color: #000 !important;
 	}
 
 	.popbox-inner {
-		border: 1px solid #003c77
+		border: 1px solid #003c77 !important;
 	}
 
 	.popbox-container {
-		background-color: #fff;
-		border: 5px solid #006fbb
+		background-color: #fff !important;
+		border: 5px solid #006fbb !important;
 	}
 
 	.popbox-container .rule {
-		border-bottom: 1px solid #e6e6e6
+		border-bottom: 1px solid #e6e6e6 !important;
 	}
 
 	.popbox-container .close-btn {
-		color: #ccc
+		color: #ccc !important;
 	}
 
 	.searchorcreate {
@@ -1722,35 +1725,31 @@
 
 	input[type="text"]:not(:disabled):focus, input[type="password"]:focus,
 	input[type="email"]:focus, textarea:focus {
-		border: 1px solid #777;
-		outline: none
+		border: 1px solid #777 !important;
+		outline: none !important;
 	}
 
 	.control-group.invalid > label, .control-group.invalid .help-block,
 	.control-group.invalid .help-inline {
-		color: #e74c3c
+		color: #e74c3c !important;
 	}
 
 	.control-group.invalid input, .control-group.invalid .select,
 	.control-group.invalid textarea {
-		color: #e74c3c;
-		border-color: #e74c3c
+		color: #e74c3c !important;
+		border-color: #e74c3c !important;
 	}
 
-	.help-block {
-		color: #aaa;
-	}
-
-	.help-inline {
-		color: #aaa;
+	.help-block, .help-inline {
+		color: #aaa !important;
 	}
 
 	.checkmark-inline:before {
-		color: #2ecc71
+		color: #2ecc71 !important;
 	}
 
 	.alert-inline:before {
-		color: #f1c40f
+		color: #f1c40f !important;
 	}
 
 	.controls.prepend label, .controls.append label {
