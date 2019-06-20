@@ -10,11 +10,6 @@ that covers various associated domains and refines styling to all elements and a
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
 @-moz-document domain("help.appveyor.com") {
-	/*! Name    : Appveyor Forums Inspired Dark */
-	/*! Version : 1.0.0 beta */
-	/*! Author  : Style-it Themes by: the-j0k3r */
-	/*! Repo    : https://github.com/style-it-themes/appveyor-forums-inspired-dark */
-	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/appveyor-forums-inspired-dark/LICENSE */
 	/*! Type    : Appveyor Forums */
 	body, #page, #content  {
 		background: #222 !important;
@@ -1413,10 +1408,6 @@ that covers various associated domains and refines styling to all elements and a
 	}
 }
 @-moz-document domain("status.appveyor.com") {
-	/*! Name    : Appveyor CI Inspired Dark */
-	/*! Author  : Style-it Themes: the-j0k3r */
-	/*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended */
-	/*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE */
 	/*! Type    : Appveyor CI Status */
 	.name, .span3, .message, .message:hover,
 	.month-title, .month-name, .date,
