@@ -24,6 +24,11 @@ that covers the AppVeyor Status domain and refines styling to all elements and u
 :asterisk: Full coverage entails styled while using a free open source account,
 its not bug free, there possible are elements that were likely missed.
 
+## Related Styles
+
+Would you like more coverage? Visit [*AppVeyor CI Inspired Dark*](https://github.com/style-it-themes/appveyor-ci-inspired-dark)
+for coverage for AppVeyor CI Builder, AppVeyor Docs, AppVeyor Blog, AppVeyor Support and AppVeyor Pricing coverage style.
+
 ## Installing
 
 #### Using a browser extension:
