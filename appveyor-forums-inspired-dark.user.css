@@ -513,8 +513,8 @@ that covers various associated domains and refines styling to all elements and a
   .original-post .admin-functions ul.actions li a {
     color: #006fbb;
   }
-  .admin-functions ul.queues li a:after,
-  .admin-functions ul.queues li.in-queue a:after {
+  .admin-functions ul.queues li a::after,
+  .admin-functions ul.queues li.in-queue a::after {
     color: #eee !important;
   }
   p.showing-recent-comments {
@@ -1143,10 +1143,10 @@ that covers various associated domains and refines styling to all elements and a
     border-color: #888 !important;
     color: #eee !important;
   }
-  .layout-content.status.status-full-history .history-header .left-arrow:before,
-  .layout-content.status.status-full-history .uptime-header .left-arrow:before,
-  .layout-content.status.status-full-history .history-header .right-arrow:before,
-  .layout-content.status.status-full-history .uptime-header .right-arrow:before {
+  .layout-content.status.status-full-history .history-header .left-arrow::before,
+  .layout-content.status.status-full-history .uptime-header .left-arrow::before,
+  .layout-content.status.status-full-history .history-header .right-arrow::before,
+  .layout-content.status.status-full-history .uptime-header .right-arrow::before {
     color: #666 !important;
   }
   .history-nav.border-color {
@@ -1159,7 +1159,7 @@ that covers various associated domains and refines styling to all elements and a
     border-top: 3px solid #444 !important;
     color: #afafaf !important;
   }
-  .button.border-color:before {
+  .button.border-color::before {
     color: #eee !important;
   }
   .button.current.border-color {
@@ -1365,10 +1365,10 @@ that covers various associated domains and refines styling to all elements and a
   .help-block, .help-inline {
     color: #aaa !important;
   }
-  .checkmark-inline:before {
+  .checkmark-inline::before {
     color: #2ecc71 !important;
   }
-  .alert-inline:before {
+  .alert-inline::before {
     color: #f1c40f !important;
   }
   .controls.prepend label, .controls.append label {
@@ -1578,13 +1578,13 @@ that covers various associated domains and refines styling to all elements and a
     border: 1px solid rgba(0, 0, 0, .2);
     background: #fff;
   }
-  .datepicker:before {
+  .datepicker::before {
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-bottom: 7px solid #ccc;
     border-bottom-color: rgba(0, 0, 0, .2);
   }
-  .datepicker:after {
+  .datepicker::after {
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-bottom: 6px solid #fff;
@@ -1890,7 +1890,7 @@ that covers various associated domains and refines styling to all elements and a
   .loader-overlay {
     background-color: rgba(255, 255, 255, .8);
   }
-  .sk-fading-circle .sk-circle:before {
+  .sk-fading-circle .sk-circle::before {
     background-color: #333;
   }
   .modal {
@@ -2018,28 +2018,28 @@ that covers various associated domains and refines styling to all elements and a
   .popover.top .arrow {
     border-top-color: #999;
   }
-  .popover.top .arrow:after {
+  .popover.top .arrow::after {
     border-top-color: #fff;
   }
   .popover.right .arrow {
     border-right-color: #999;
   }
-  .popover.right .arrow:after {
+  .popover.right .arrow::after {
     border-right-color: #fff;
   }
   .popover.bottom .arrow {
     border-bottom-color: #999;
   }
-  .popover.bottom .arrow:after {
+  .popover.bottom .arrow::after {
     border-bottom-color: #fff;
   }
   .popover.left .arrow {
     border-left-color: #999;
   }
-  .popover.left .arrow:after {
+  .popover.left .arrow::after {
     border-left-color: #fff;
   }
-  .popover .arrow, .popover .arrow:after {
+  .popover .arrow, .popover .arrow::after {
     border-color: transparent;
   }
   .popover .popover-title {
@@ -2155,10 +2155,10 @@ that covers various associated domains and refines styling to all elements and a
   .cpt-tabs:not(.unstyled).mobile {
     border: 1px solid #e0e0e0;
   }
-  .cpt-tabs:not(.unstyled).mobile:after {
+  .cpt-tabs:not(.unstyled).mobile::after {
     color: #ccc;
   }
-  .cpt-tabs:not(.unstyled).mobile.open:before {
+  .cpt-tabs:not(.unstyled).mobile.open::before {
     color: #afafaf;
   }
   .cpt-tabs:not(.unstyled).mobile.open li:last-of-type {
@@ -2511,22 +2511,22 @@ that covers various associated domains and refines styling to all elements and a
   .layout-content.status.status-index .incident-container .incident-title a + a {
     color: #3498db !important;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-0:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-0::before {
     background-color: #3498db;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-1:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-1::before {
     background-color: #3545db;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-2:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-2::before {
     background-color: #35dbcb;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.green:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.green::before {
     background-color: #2ecc71;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.yellow:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.yellow::before {
     background-color: #f1c40f;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.red:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.red::before {
     background-color: #e74c3c;
   }
   .layout-content.status.status-full-history .show-filter.open {
@@ -2577,7 +2577,7 @@ that covers various associated domains and refines styling to all elements and a
   .layout-content.status.status-incident .components-affected {
     border-color: #444 !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-yellow:after,
+  .layout-content.status-index .components-statuses .component-container.status-yellow::after,
   .layout-content.status-full-history .month .incident-container .impact-minor,
   .layout-content.status-incident .incident-name.impact-minor,
   .layout-content.status.status-index .incidents-list .incident-title.impact-minor a,
@@ -2587,7 +2587,7 @@ that covers various associated domains and refines styling to all elements and a
   .layout-content.status.manage-subscriptions .confirmation-infobox .fa {
     color: #efcc00 !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-yellow:after,
+  .layout-content.status-index .components-statuses .component-container.status-yellow::after,
   .layout-content.status-full-history .month .incident-container .impact-minor,
   .layout-content.status-incident .incident-name.impact-minor,
   .layout-content.status.status-index .incidents-list .incident-title.impact-minor a,
@@ -2597,7 +2597,7 @@ that covers various associated domains and refines styling to all elements and a
   .layout-content.status.manage-subscriptions .confirmation-infobox .fa {
     color: #efcc00 !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-orange:after,
+  .layout-content.status-index .components-statuses .component-container.status-orange::after,
   .layout-content.status-full-history .month .incident-container .impact-major,
   .layout-content.status-incident .incident-name.impact-major,
   .layout-content.status.status-index .incidents-list .incident-title.impact-major a,
@@ -2606,7 +2606,7 @@ that covers various associated domains and refines styling to all elements and a
   .components-container .component-inner-container.status-orange .icon-indicator {
     color: #ff8c3e !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-orange:after,
+  .layout-content.status-index .components-statuses .component-container.status-orange::after,
   .layout-content.status-full-history .month .incident-container .impact-major,
   .layout-content.status-incident .incident-name.impact-major,
   .layout-content.status.status-index .incidents-list .incident-title.impact-major a,
@@ -2615,7 +2615,7 @@ that covers various associated domains and refines styling to all elements and a
   .components-container .component-inner-container.status-orange .icon-indicator {
     color: #ff8c3e !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-blue:after,
+  .layout-content.status-index .components-statuses .component-container.status-blue::after,
   .layout-content.status-full-history .month .incident-container .impact-maintenance,
   .layout-content.status-incident .incident-name.impact-maintenance,
   .layout-content.status.status-index .incidents-list .incident-title.impact-maintenance a,
@@ -2624,7 +2624,7 @@ that covers various associated domains and refines styling to all elements and a
   .components-container .component-inner-container.status-blue .icon-indicator {
     color: #0068ff !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-blue:after,
+  .layout-content.status-index .components-statuses .component-container.status-blue::after,
   .layout-content.status-full-history .month .incident-container .impact-maintenance,
   .layout-content.status-incident .incident-name.impact-maintenance,
   .layout-content.status.status-index .incidents-list .incident-title.impact-maintenance a,
