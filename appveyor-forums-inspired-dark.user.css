@@ -301,13 +301,13 @@ that covers various associated domains and refines styling to all elements and a
     color: #ccc !important;
   }
   .recommended-results {
-    background-color: #ffffe0;
+    background-color: #651;
   }
   .recommended-results ol.search-results li {
-    border-color: #ffff94;
+    border-color: #651;
   }
   ol.mass-editing span.state {
-    background-color: #e6e6e6;
+    background-color: #4d4a4a;
   }
   ol.mass-editing li.checked span.state {
     background-color: #c2c2c2;
@@ -320,11 +320,11 @@ that covers various associated domains and refines styling to all elements and a
     color: #aaa !important;
   }
   .merge-warning {
-    background-color: #ffffe0;
+    background-color: #651;
   }
   img.rage {
-    border-color: #e6e6e6;
-    background-color: #fff;
+    border-color: #444;
+    background-color: #111;
   }
   div.assets {
     border-color: #555 !important;
@@ -351,7 +351,7 @@ that covers various associated domains and refines styling to all elements and a
     border-top-color: #c8c8c8;
   }
   .readonly-message {
-    background-color: #ffffe0;
+    background-color: #651;
   }
   .files {
     background-color: #222 !important;
@@ -1086,7 +1086,6 @@ that covers various associated domains and refines styling to all elements and a
   }
   .g-recaptcha iframe {
     border: transparent !important;
-    width: 334px !important;
     filter: invert(87.5%) hue-rotate(180deg) !important;
   }
   .rc-anchor-logo-text {
@@ -1372,13 +1371,13 @@ that covers various associated domains and refines styling to all elements and a
     color: #f1c40f !important;
   }
   .controls.prepend label, .controls.append label {
-            box-shadow: 0 1px 0 white inset;
-       -moz-box-shadow: 0 1px 0 white inset;
-    -webkit-box-shadow: 0 1px 0 white inset;
-         -o-box-shadow: 0 1px 0 white inset;
-        -ms-box-shadow: 0 1px 0 white inset;
-    background-color: #f4f4f4;
-    color: #666;
+            box-shadow: 0 1px 0 #333 inset;
+       -moz-box-shadow: 0 1px 0 #333 inset;
+    -webkit-box-shadow: 0 1px 0 #333 inset;
+         -o-box-shadow: 0 1px 0 #333 inset;
+        -ms-box-shadow: 0 1px 0 #333 inset;
+    background-color: #181818;
+    color: #bbb;
   }
   .controls.prepend label.prepender, .controls.append label.prepender {
     border-right: 1px solid #555 !important;
@@ -1399,11 +1398,11 @@ that covers various associated domains and refines styling to all elements and a
     color: #fff;
   }
   .tooltipster-sidetip .tooltipster-box {
-    background: #eee;
-    border: 2px solid #fff;
+    background: #222;
+    border: 2px solid #333;
   }
   .tooltipster-sidetip .tooltipster-content {
-    color: #000 !important;
+    color: #eee !important;
   }
   .tooltipster-sidetip .tooltipster-arrow-background {
     border: 10px solid transparent;
@@ -1481,14 +1480,14 @@ that covers various associated domains and refines styling to all elements and a
     border-top: 1px solid #ecf0f1;
   }
   .cpt-admin-simple-search-form button {
-    background: #fafafa;
-    border: 1px solid #bbb;
+    background: #222;
+    border: 1px solid #333;
   }
   .carousel-control {
     color: #fff;
     text-align: center;
     background: #222;
-    border: 3px solid #fff;
+    border: 3px solid #333;
   }
   .carousel-control:hover {
     color: #fff;
@@ -1524,11 +1523,11 @@ that covers various associated domains and refines styling to all elements and a
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .075);
          -o-box-shadow: 0 2px 5px rgba(0, 0, 0, .075);
         -ms-box-shadow: 0 2px 5px rgba(0, 0, 0, .075);
-    border: solid 1px #d0d0d0;
-    background-color: #fff;
+    border: solid 1px #333;
+    background-color: #111;
   }
   .component-statuses .component-status-container .component-dropdown-selector .status-dropdown .status-option:hover {
-    background-color: #f9f9f9;
+    background-color: #191919;
     color: #3498db;
   }
   .component-statuses .component-status-container .component-status-override {
@@ -1540,15 +1539,15 @@ that covers various associated domains and refines styling to all elements and a
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
          -o-box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
         -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
-    background-color: #f8f8f8;
-    border-color: #d4d4d4;
-    border-bottom-color: #dedede;
+    background-color: #181818;
+    border-color: #333;
+    border-bottom-color: #444;
   }
   .component-statuses .component-status-container .component-dropdown-selector .active {
-    background-color: #ddd !important;
+    background-color: #222 !important;
   }
   .component-statuses .component-status-container .component-dropdown-selector .component-status-display {
-    border: solid 1px #bbb !important;
+    border: solid 1px #333 !important;
   }
   .component-statuses .component-status-container .component-dropdown-selector .component-status-display .arrow {
     color: #888 !important;
@@ -1576,7 +1575,7 @@ that covers various associated domains and refines styling to all elements and a
          -o-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
         -ms-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     border: 1px solid rgba(0, 0, 0, .2);
-    background: #fff;
+    background: #111;
   }
   .datepicker::before {
     border-left: 7px solid transparent;
@@ -1587,7 +1586,7 @@ that covers various associated domains and refines styling to all elements and a
   .datepicker::after {
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 6px solid #fff;
+    border-bottom: 6px solid #444;
   }
   .datepicker td.day:hover {
     background: #eee;
@@ -1652,11 +1651,8 @@ that covers various associated domains and refines styling to all elements and a
     color: #3498db !important;
   }
   .es-menu {
-    border: 1px solid #dedede;
-    background: white;
-  }
-  .es-menu .tt-dataset {
-    min-width: 400px;
+    border: 1px solid #333;
+    background: #222;
   }
   .es-menu .item {
     border-bottom: 1px solid #e6e6e6;
@@ -1689,7 +1685,7 @@ that covers various associated domains and refines styling to all elements and a
     color: #afafaf;
   }
   .no-results-area p.error-text {
-    color: indianred;
+    color: #cc5c5c;
   }
   @-webkit-keyframes color {
     100%, 0% {
@@ -1950,14 +1946,14 @@ that covers various associated domains and refines styling to all elements and a
     color: rgba(255, 255, 255, .8);
   }
   .cpt-notification .close:hover {
-    color: white;
+    color: #eee;
   }
   .cpt-notification a:not(.close) {
-    color: white;
+    color: #eee;
     font-weight: 700;
   }
   .cpt-notification a:not(.close):hover {
-    color: white;
+    color: #eee;
     text-decoration: underline;
   }
   .cpt-notification.dotted {
@@ -2185,7 +2181,7 @@ that covers various associated domains and refines styling to all elements and a
     color: #217dbb !important;
   }
   .cpt-toggle .bubble {
-    background-color: white;
+    background-color: #eee;
   }
   .cpt-toggle .text {
     color: #b2b2b2;
@@ -2397,11 +2393,11 @@ that covers various associated domains and refines styling to all elements and a
     color: #ccc !important;
   }
   .updates-dropdown-container .updates-dropdown .updates-dropdown-nav a.active {
-            box-shadow: 0 -1px 3px rgba(0, 0, 0,) inset !important;
-       -moz-box-shadow: 0 -1px 3px rgba(0, 0, 0,) inset !important;
-    -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0,) inset !important;
-         -o-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0) inset !important;
-        -ms-box-shadow: 0 -1px 3px rgba(0, 0, 0,) inset !important;
+            box-shadow: 0 -1px 3px rgba(0, 0, 0, .5) inset !important;
+       -moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, .5) inset !important;
+    -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, .5) inset !important;
+         -o-box-shadow: 0 -1px 3px rgba(0, 0, 0, .5) inset !important;
+        -ms-box-shadow: 0 -1px 3px rgba(0, 0, 0, .5) inset !important;
     background-color: #333 !important;
     border-bottom: 1px solid #333 !important;
   }
@@ -2423,7 +2419,7 @@ that covers various associated domains and refines styling to all elements and a
   }
   .pau-preview {
     background-color: #3498db !important;
-    color: white !important;
+    color: #eee !important;
   }
   .flat-button,
   .layout-content.status .masthead-container .updates-dropdown-container .show-updates-dropdown {
@@ -2468,7 +2464,7 @@ that covers various associated domains and refines styling to all elements and a
     border-color: #ccc !important;
   }
   .layout-content.status.status-index .unresolved-incidents .unresolved-incident .incident-title {
-    text-shadow: 0 1px 0 rgba(0, 0, 0,) !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .5) !important;
   }
   .color-primary, .color-primary:hover,
   .layout-content.status-index .status-day .update-title.impact-none a,
@@ -2547,13 +2543,13 @@ that covers various associated domains and refines styling to all elements and a
     background-color: #fff;
   }
   .layout-content.status-internal .powered-by-container {
-    color: white;
+    color: #eee;
   }
   .layout-content.status-internal .powered-by-container a {
     color: #bb1d1d;
   }
   .layout-content.status-internal .powered-by-container a:hover {
-    color: white;
+    color: #eee;
   }
   #uptime-percent-v3pv505czcvn, #uptime-percent-x0lpb7qzw919,
   #uptime-percent-zd1jfc33yt1p, #uptime-percent-pw8ss5jcjb45,
