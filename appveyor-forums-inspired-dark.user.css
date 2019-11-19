@@ -1103,9 +1103,6 @@ that covers various associated domains and refines styling to all elements and a
   div .impact-none.incident-title.font-large {
     color: #999;
   }
-  small {
-    color: #666 !important;
-  }
   .font-largest.border-color, .font-largest {
     border-color: #666 !important;
     color: #999;
@@ -1123,7 +1120,7 @@ that covers various associated domains and refines styling to all elements and a
   }
   body.status .layout-content.status .border-color, hr, .tooltip-base,
   .markdown-display table {
-    border-color: #555 !important;
+    border-color: #555;
   }
   article, aside, details, figcaption, figure, footer, header, hgroup, nav,
   section {
@@ -1135,18 +1132,22 @@ that covers various associated domains and refines styling to all elements and a
     color: #eee !important;
   }
   .pagination-container, .previous-page, .next-page {
-    border-color: #666 !important;
-    color: #ccc !important;
+    border-color: #666;
+    color: #ccc;
   }
   .previous-page:hover, .next-page:hover {
-    border-color: #888 !important;
-    color: #eee !important;
+    border-color: #777 !important;
+    background: #282828;
+  }
+  .previous-page:hover .left-arrow::before,
+  .next-page:hover .right-arrow::before {
+    color: #999 !important;
   }
   .layout-content.status.status-full-history .history-header .left-arrow::before,
   .layout-content.status.status-full-history .uptime-header .left-arrow::before,
   .layout-content.status.status-full-history .history-header .right-arrow::before,
   .layout-content.status.status-full-history .uptime-header .right-arrow::before {
-    color: #666 !important;
+    color: #777;
   }
   .history-nav.border-color {
     border-color: #444 !important;
@@ -1168,7 +1169,7 @@ that covers various associated domains and refines styling to all elements and a
     color: #999 !important;
   }
   .update-body.font-regular {
-    color: #888 !important;
+    color: #eee;
   }
   .impact-none {
     color: #b3b3b3 !important;
@@ -1234,11 +1235,8 @@ that covers various associated domains and refines styling to all elements and a
     color: #3498db;
     text-decoration: none;
   }
-  a.small {
-    font-size: .875rem;
-  }
   a:hover {
-    color: #2791d9;
+    color: #40a3e6;
     text-decoration: none;
   }
   a:focus {
@@ -1251,7 +1249,7 @@ that covers various associated domains and refines styling to all elements and a
     color: #afafaf;
   }
   .color-secondary, a.no-link, .metric-name.color-primary {
-    color: #777 !important;
+    color: #aaa;
   }
   p.blockquote {
     border-left: 5px solid #63c7a9;
@@ -1397,9 +1395,52 @@ that covers various associated domains and refines styling to all elements and a
   .fa-inverse {
     color: #fff;
   }
+  body.status .layout-content.status .border-color, hr, .tooltip-base,
+  .markdown-display table, #uptime-tooltip .tooltip-box {
+    border-color: #555;
+  }
+  .tooltip-base {
+    color: #bbb;
+    border-color: #bbb !important;
+  }
+  .tooltip-base:hover {
+    color: #3498db;
+    border-color: #3498db !important;
+  }
+  rect[width="32"][fill="#EAEAEA"] {
+    fill: #666;
+  }
+  .layout-content.status.status-full-history .uptime-calendar #uptime-tooltip {
+    background-color: #191919;
+    border: 1px solid #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  }
+  .layout-content.status.status-full-history .uptime-calendar #uptime-tooltip #box-arrow {
+    background-color: #191919 !important;
+    border-left: 1px solid #555;
+    border-top: 1px solid #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  }
+  body,
+  .layout-content.status.status-api .section .example-container .example-opener .color-secondary,
+  .grouped-items-selector,
+  .layout-content.status.status-full-history .history-nav a.current,
+  #uptime-tooltip .tooltip-box,
+  .layout-content.status.status-full-history .uptime-calendar #uptime-tooltip .tooltip-box {
+    background-color: #191919;
+  }
+  #uptime-tooltip .pointer-container .pointer-larger {
+    border-bottom-color: #555;
+  }
   .tooltipster-sidetip .tooltipster-box {
     background: #222;
     border: 2px solid #333;
+  }
+  #uptime-tooltip[style*="display: none;"] {
+    display: block !important;
+  }
+  #uptime-tooltip .pointer-container .pointer-smaller {
+    border-bottom-color: #191919;
   }
   .tooltipster-sidetip .tooltipster-content {
     color: #eee !important;
@@ -1435,7 +1476,7 @@ that covers various associated domains and refines styling to all elements and a
     border-top-color: #eee;
   }
   .tooltipster-sidetip.tooltipster-borderless .tooltipster-box {
-    background: #eee;
+    background: #191919;
   }
   .tooltipster-sidetip.tooltipster-borderless .tooltipster-arrow-border {
     border: 8px solid transparent;
@@ -1450,7 +1491,7 @@ that covers various associated domains and refines styling to all elements and a
     border-right-color: #eee;
   }
   .tooltipster-sidetip.tooltipster-borderless.tooltipster-top .tooltipster-arrow-border {
-    border-top-color: #eee;
+    border-top-color: #191919;
   }
   .cpt-admin-callout {
     border: 1px solid #e1e1e1;
@@ -2191,13 +2232,6 @@ that covers various associated domains and refines styling to all elements and a
   }
   .cpt-toggle.on .text {
     color: #fff !important;
-  }
-  .tooltip-base {
-    color: #666 !important;
-    border-color: #ccc !important;
-  }
-  .tooltip-base:hover {
-    color: #666 !important;
   }
   .tooltip.top .tooltip-arrow {
     border-left: 5px solid transparent !important;
