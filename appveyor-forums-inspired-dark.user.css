@@ -490,11 +490,11 @@ that covers various associated domains and refines styling to all elements and a
     border-bottom-color: #555 !important;
   }
   .original-post .meta .date {
-    color: #666;
+    color: #aaa;
   }
   .original-post .meta .type {
-    color: #666;
-    background-color: #e6e6e6;
+    color: #aaa;
+    background-color: #383838;
   }
   .original-post .meta h4 a {
     color: #eee !important;
