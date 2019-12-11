@@ -1096,10 +1096,6 @@ that covers various associated domains and refines styling to all elements and a
   .mobile.section-discussions .category {
     background-color: #efefef !important;
   }
-  .g-recaptcha iframe {
-    border: transparent !important;
-    filter: invert(87.5%) hue-rotate(180deg) !important;
-  }
   .rc-anchor-logo-text {
     content: "" !important;
     font-size: 0 !important;
