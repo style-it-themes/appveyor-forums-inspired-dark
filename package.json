@@ -27,13 +27,13 @@
     "clean": "npm run lintfix && npm run perfectionist && node tools/fix-perfectionist.js",
     "eslint": "eslint --quiet --color tools/*.js",
     "lint": "npm run eslint && npm run stylelint",
-    "patch": "npx versions -p patch *.user.css",
-    "minor": "npx versions -p minor *.user.css",
-    "major": "npx versions -p major *.user.css",
-    "perfectionist": "npx perfectionist appveyor-forums-inspired-dark.user.css appveyor-forums-inspired-dark.user.css --indentSize 2 --maxAtRuleLength 250",
-    "stylelint": "npx stylelint --quiet --color -- appveyor-forums-inspired-dark.user.css",
-    "lintfix": "npx stylelint --quiet --color --fix -- appveyor-forums-inspired-dark.user.css",
+    "patch": "versions -p patch *.user.css",
+    "minor": "versions -p minor *.user.css",
+    "major": "versions -p major *.user.css",
+    "perfectionist": "perfectionist appveyor-forums-inspired-dark.user.css appveyor-forums-inspired-dark.user.css --indentSize 2 --maxAtRuleLength 250",
+    "stylelint": "stylelint --quiet --color -- appveyor-forums-inspired-dark.user.css",
+    "lintfix": "stylelint --quiet --color --fix -- appveyor-forums-inspired-dark.user.css",
     "test": "npm run eslint && npm run stylelint",
-    "update": "npx updates -cu && npm install"
+    "update": "updates -cu && npm install"
   }
 }
