@@ -556,6 +556,19 @@ that covers various associated domains and refines styling to all elements and a
   ol#comments li.staffer .meta a {
     color: #fff !important;
   }
+  li[style*="background-color:"] {
+    background-image: none !important;
+    animation-name: highlight-fade !important;
+    animation-duration: 3s !important;
+  }
+  @keyframes highlight-fade {
+    from {
+      background-color: #444;
+    }
+    to {
+      background-color: transparent;
+    }
+  }
   ol#comments li.internal .avatar {
     border: 1px solid #222 !important;
   }
