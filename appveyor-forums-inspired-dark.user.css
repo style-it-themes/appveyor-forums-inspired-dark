@@ -458,21 +458,21 @@ that covers various associated domains and refines styling to all elements and a
     color: #aaa !important;
   }
   table.discussion-listing {
-    border-top-color: #444 !important;
-    border-left-color: #444 !important;
+    border-top-color: #444;
+    border-left-color: #444;
   }
   table.discussion-listing th {
-    color: #ccc !important;
-    border-top-color: #444 !important;
-    border-left-color: #444 !important;
-    border-bottom-color: #444 !important;
-    background: #222 !important;
+    color: #ccc;
+    border-color: #444 !important;
+    background: #282828;
+  }
+  table.discussion-listing td.icon {
+    border-color: #444 !important;
+    background: #282828;
   }
   table.discussion-listing td {
-    border-right-color: #444 !important;
-    border-left-color: #444 !important;
-    border-bottom-color: #444 !important;
-    background: #222 !important;
+    border-color: #444;
+    background: #222;
   }
   table.discussion-listing td p {
     color: #aaa !important;
@@ -528,7 +528,7 @@ that covers various associated domains and refines styling to all elements and a
     color: #006fbb;
   }
   ol#comments li .body {
-    border-color: #aaa !important;
+    border-color: #666;
   }
   ol#comments li .body h3 {
     color: #777 !important;
@@ -540,8 +540,7 @@ that covers various associated domains and refines styling to all elements and a
     color: #eee !important;
   }
   ol#comments li.activity .body {
-    border: 1px solid #d6d6d6;
-    border-width: 1px 0 0;
+    border-color: #666;
   }
   ol#comments li.staffer {
     color: #eee !important;
@@ -682,7 +681,7 @@ that covers various associated domains and refines styling to all elements and a
     color: #000 !important;
   }
   .watcher-widget.anon {
-    border-bottom: 1px solid #aaa !important;
+    border-bottom: 1px solid #861 !important;
   }
   .watcher-widget {
     background-color: #333 !important;
@@ -690,7 +689,7 @@ that covers various associated domains and refines styling to all elements and a
     border-bottom: 0 !important;
   }
   .watcher-info {
-    border-bottom: 1px solid #777 !important;
+    border-color: #444;
   }
   .watcher-info a {
     color: #ccc !important;
