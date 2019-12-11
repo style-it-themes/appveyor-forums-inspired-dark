@@ -1192,10 +1192,6 @@ that covers various associated domains and refines styling to all elements and a
   textarea::placeholder {
     color: #bbb !important;
   }
-  .clearfix {
-    clear: both;
-    zoom: 1;
-  }
   a.delete-action:hover {
     color: #e74c3c;
   }
